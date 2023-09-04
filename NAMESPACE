@@ -1,0 +1,11 @@
+#useDynLib(NetDA)
+export(DG)
+export(EST_ATE)
+export(SIMEX_EST)
+export(VSE_PS)
+#importFrom("X","Y", "method","X_test")
+#importFrom("yhat","Y_test")
+import(ncvreg)
+import(MASS)
+importFrom("stats", "BIC", "binomial", "deviance", "glm", "optim",
+             "pnorm", "rbinom", "rnorm", "var")
